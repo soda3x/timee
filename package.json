@@ -4,6 +4,7 @@
     "description": "Displays inline timezone conversions for timestamps in log files",
     "version": "1.0.0",
     "publisher": "soda3x",
+    "repository": "https://github.com/soda3x/timee",
     "engines": {
         "vscode": "^1.75.0"
     },
