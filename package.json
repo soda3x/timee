@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "publisher": "soda3x",
     "repository": "https://github.com/soda3x/timee",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.75.0"
     },
