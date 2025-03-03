@@ -2,7 +2,7 @@
     "name": "timee",
     "displayName": "Timee",
     "description": "Displays inline timezone conversions for timestamps in log files",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "soda3x",
     "repository": "https://github.com/soda3x/timee",
     "icon": "icon.png",
