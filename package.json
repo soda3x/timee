@@ -1,0 +1,46 @@
+{
+    "name": "timee",
+    "displayName": "Timee",
+    "description": "Displays inline timezone conversions for timestamps in log files",
+    "version": "1.0.0",
+    "publisher": "soda3x",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "timee.setSourceTimezone",
+                "title": "Timee: Set Source Timezone"
+            },
+            {
+                "command": "timee.setTargetTimezone",
+                "title": "Timee: Set Target Timezone"
+            }
+        ],
+        "configuration": {
+            "properties": {
+                "timee.sourceTimezone": {
+                    "type": "string",
+                    "default": "UTC",
+                    "description": "The original timezone of timestamps in log files"
+                },
+                "timee.targetTimezone": {
+                    "type": "string",
+                    "default": "UTC",
+                    "description": "The target timezone for converted timestamps"
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "moment-timezone": "^0.5.40"
+    }
+}
