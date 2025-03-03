@@ -4,7 +4,7 @@
 
 # timee
 
-Show inline converted timestamps in log files
+VS Code extension to show inline converted timestamps in log files
 
 ## Usage
 
