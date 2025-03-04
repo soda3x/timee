@@ -2,7 +2,10 @@
   <img src="https://github.com/soda3x/timee/raw/main/screenshot.png" />
 </p>
 
-# timee
+<h1>
+  <img src="https://github.com/soda3x/timee/raw/main/icon.png" width=32 />
+  timee
+</h1>
 
 VS Code extension to show inline converted timestamps in log files
 
